@@ -2,33 +2,51 @@
 <html>
 <head>
     <title>Original.com - Online Shopping Market</title>
+
     <style>
         body {
             font-family: Arial;
-            background: #f0f8ff;
+            background: #f8f9fa;
+            margin: 0;
+        }
+
+        header {
+            background: #ff4081;
+            color: white;
+            padding: 15px;
             text-align: center;
         }
-        h1 {
-            color: #ff4081;
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
+
         .product {
             background: white;
+            width: 200px;
             margin: 15px;
-            padding: 15px;
+            padding: 10px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px #ccc;
+            text-align: center;
         }
+
         img {
-            width: 180px;
+            width: 100%;
+            border-radius: 10px;
         }
+
         button {
             background: #25D366;
             color: white;
-            padding: 10px;
+            padding: 8px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
         }
+
         button:hover {
             background: green;
         }
@@ -37,34 +55,58 @@
 
 <body>
 
-<h1>🛍️ Original.com - Online Shopping Market</h1>
-<p>👶 ছেলে-মেয়েদের অনেক সুন্দর সুন্দর পোশাক</p>
+<header>
+    <h1>🛍️ Original Shopping BD</h1>
+    <p>👶 ছেলে-মেয়েদের  নতুন ডিজাইন পোশাক এখানে পাওয়া যায়</p>
+</header>
+
+<div class="container">
 
 <div class="product">
-    <img src="https://i.ibb.co/0jqHpnp/Male-shirt.jpg">
+    <img src="https://i.ibb.co/0jqHpnp/Male-T-Shirt.jpg">
     <h3>Male T-shirt</h3>
-    <p>Price: 350 - 1000৳</p>
-    <a href="https://wa.me/8801322603563">
-        <button>Order Now</button>
+    <p>500৳</p>
+    <a href="https://wa.me/8801322603563?text=Order Male T- Shirt-450-1200tk">
+        <button>Order</button>
     </a>
 </div>
 
 <div class="product">
-    <img src="https://i.ibb.co/ZYW3VTp/Female-shops.jpg">
-    <h3>Female Shopping</h3>
-    <p>Price: 550 - 3000৳</p>
-    <a href="https://wa.me/8801322603563">
-        <button>Order Now</button>
+    <img src="https://i.ibb.co/ZYW3VTp/Female-Shops.jpg">
+    <h3>Female shops</h3>
+    <p>550-3000৳</p>
+    <a href="https://wa.me/8801322603563?text=Order Female Shopping- 550-3000tk">
+        <button>Order</button>
     </a>
 </div>
 
 <div class="product">
     <img src="https://i.ibb.co/7Y2Yh0P/baby-set.jpg">
-    <h3>Baby Dress Set</h3>
-    <p>Price: 600-1200৳</p>
-    <a href="https://wa.me/8801322603563">
-        <button>Order Now</button>
+    <h3>Baby Set</h3>
+    <p>650-1250৳</p>
+    <a href="https://wa.me/8801322603563?text=Order Baby Set - 650-1250tk">
+        <button>Order</button>
     </a>
+</div>
+
+<div class="product">
+    <img src="https://i.ibb.co/ZYW3VTp/Offer-Shops.jpg">
+    <h3>Offer Shops</h3>
+    <p>Offer</p>
+    <a href="https://wa.me/8801322603563?text=Order Offer Hoodie - Offer ">
+        <button>Order</button>
+    </a>
+</div>
+
+<div class="product">
+    <img src="https://i.ibb.co/0jqHpnp/baby-frock.jpg">
+    <h3>Girls Dress</h3>
+    <p>550*3000৳</p>
+    <a href="https://wa.me/8801322603563?text=Order Girls Dress - 550-3000tk">
+        <button>Order</button>
+    </a>
+</div>
+
 </div>
 
 </body>
